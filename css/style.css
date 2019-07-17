@@ -1,0 +1,194 @@
+/* 1280 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #fff;
+    color: #333;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    position: relative;
+    /* display: block; */
+    width: 1200px;
+    margin: 0 auto;
+}
+.container>.logo {
+    /* border: 1px solid red ; */
+    background: #83d154;
+    position: relative;
+}
+
+.container>.logo>a>img {
+    /* border: 1px solid #000; */
+    height: 100px;
+    display: block;
+}
+
+nav {
+    width: 80%;
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+nav .depth1 {
+    width: 100%;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+}
+nav .depth2 a {
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+}
+
+nav .depth1 > li > a {
+    color: #7b422e;
+    font-weight: bold;
+    tab-size: 20px;
+}
+
+nav ul.depth1 > li {
+    float: left;
+    width: 25%;
+    height: 35px;
+    line-height: 35px;
+    border-right: 1px solid #7b422e;
+}
+
+nav ul.depth1 > li:last-child {
+    border-right: none;
+}
+
+nav  ul.depth2 {
+    margin-top: 8px;
+    background: #7b422e;
+    z-index: 999;
+    position: absolute;
+    width: 25%;
+}
+
+/* 슬라이드 */
+
+div.slider{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.slider > .sliders{
+    /* 이미지 크기 * 이미지 장수 */
+    width: 300%;
+    /* 다음이미지 -이미지 크기 x 번호 */
+    margin-left: 0px;
+    /* 모션 추가(transition) */
+    transition: 0.5s;      
+}
+.slider > .sliders img{
+    width: 33.33%;
+    float: left;
+}
+
+.text{
+    position: absolute;
+    z-index: 999;
+    /* background: rgba(192,192,192,0.5); */
+    color: #fff;
+    top: 220px;
+    left: 100px;
+    font-size: 25px;
+}
+.text > h3:first-child{
+    padding-bottom: 10px;
+}
+
+section.t_con>.container {
+    background: #ccc9;
+    position: relative;
+}
+section.t_con>.container > div {
+    width:32%;
+    display: inline-block;
+}
+.m_con img{
+    max-width: 1200px;
+    width: 100%;
+    position: relative;
+    top: 8px;
+}
+.m_con ul li {
+    width:32%;
+    display: inline-block;
+}
+.m_con p {
+    padding: 10px 0;
+}
+.m_con {
+    position: relative;
+    top: -135px;
+}
+
+.clear {
+    clear: both;
+}
+
+section.t_con>.container>.f_con{
+    padding: 20px 20px;
+}
+section.t_con>.container>.f_con>p{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+section.t_con>.container>.f_con>ul>.sm:last-child{
+    padding-bottom: 0;
+}
+section.t_con>.container>.f_con>ul{
+    font-size: 14px;
+}
+
+section.t_con>.container>.f_con>ul>.sm{
+    font-size: small;
+    padding-bottom: 10px;
+}
+
+.l_con {
+    position: relative;
+    top: -90px;
+}
+
+
+.container > img{
+    height: 100px;
+    /* display: block; */
+}
+footer > div{
+    background: #83d154;
+}
+footer > div > span{
+    /* border: 1px solid red; */
+    display: inline-block;
+    position: relative;
+    left: 210px;
+    font-size: small;
+    top: -80px;
+}
+.container > ul > li{
+    display: inline-block;
+    position: relative;
+    left: 210px;
+    top: -90px;
+}
+.container > ul > li > a{
+    color: #7b422e;
+}
